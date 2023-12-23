@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-"""Place Module"""
+""" Place Module for HBNB project """
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """
-    All public class attribute should be empty
-    """
+    """ A place to stay """
     city_id = ""
     user_id = ""
     name = ""

@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-"""State Module"""
+""" State Module for HBNB project """
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """
-    All attrbutes should be empty
-    """
+    """ State class """
     name = ""
